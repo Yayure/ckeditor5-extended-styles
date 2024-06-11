@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    {
+      "name": "Extended styles",
+      "className": "ExtendedStyles",
+      "description": "Adds text to the editor.",
+      "path": "src/extendedstyles.ts",
+      "uiComponents": [
+        {
+          "name": "extendedStylesButton",
+          "type": "Button",
+          "iconPath": "theme/icons/ckeditor.svg"
+        }
+      ]
+    }
+  ]
+}
