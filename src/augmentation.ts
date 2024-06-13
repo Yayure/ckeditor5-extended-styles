@@ -1,7 +1,14 @@
-import type { ExtendedStyles } from './index';
+import type {
+	Emphasis,
+	AttributeCommand
+} from './index';
 
 declare module '@ckeditor/ckeditor5-core' {
 	interface PluginsMap {
-		[ ExtendedStyles.pluginName ]: ExtendedStyles;
+		[ Emphasis.pluginName ]: Emphasis;
+	}
+
+	interface CommandsMap {
+		emphasis: AttributeCommand;
 	}
 }

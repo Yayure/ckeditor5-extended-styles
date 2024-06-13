@@ -23,12 +23,12 @@ import { Paragraph } from '@ckeditor/ckeditor5-paragraph';
 import { Table, TableToolbar } from '@ckeditor/ckeditor5-table';
 import { Base64UploadAdapter } from '@ckeditor/ckeditor5-upload';
 
-import ExtendedStyles from '../src/extendedstyles';
+import { Emphasis } from '../src/index';
 
 ClassicEditor
 	.create( document.getElementById( 'editor' )!, {
 		plugins: [
-			ExtendedStyles,
+			Emphasis,
 			Essentials,
 			Autoformat,
 			BlockQuote,
@@ -52,7 +52,7 @@ ClassicEditor
 			Base64UploadAdapter
 		],
 		toolbar: [
-			'extendedStylesButton',
+			'emphasis',
 			'|',
 			'heading',
 			'|',

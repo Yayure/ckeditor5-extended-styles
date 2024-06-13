@@ -1,8 +1,4 @@
-import ckeditor from './../theme/icons/ckeditor.svg';
 import './augmentation';
 
-export { default as ExtendedStyles } from './extendedstyles';
-
-export const icons = {
-	ckeditor
-};
+export { default as Emphasis } from './emphasis';
+export type { default as AttributeCommand } from './attributecommand';
