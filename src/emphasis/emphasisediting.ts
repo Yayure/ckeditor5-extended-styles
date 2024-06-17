@@ -9,7 +9,7 @@ const EMPHASIS = 'emphasis';
  *
  * It registers the `'emphasis'` command and introduces the `emphasis` attribute in the model which renders to the view
  */
-export default class BoldEditing extends Plugin {
+export default class EmphasisEditing extends Plugin {
 	/**
 	 * @inheritDoc
 	 */

@@ -97,7 +97,8 @@
 	CKEditor5.editorClassic.ClassicEditor
 		.create( document.querySelector( '#editor' ), {
 			plugins: [
-				CKEditor5[ 'extendedStyles' ].ExtendedStyles,
+				CKEditor5[ 'extendedStyles' ].Emphasis,
+				CKEditor5[ 'extendedStyles' ].Wavyunderline,
 				CKEditor5.essentials.Essentials,
 				CKEditor5.autoformat.Autoformat,
 				CKEditor5.blockQuote.BlockQuote,
@@ -121,7 +122,8 @@
 				CKEditor5.upload.Base64UploadAdapter
 			],
 			toolbar: [
-				'extendedStylesButton',
+				'emphasis',
+				'wavyunderline',
 				'|',
 				'heading',
 				'|',

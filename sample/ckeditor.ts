@@ -9,7 +9,7 @@ import CKEditorInspector from '@ckeditor/ckeditor5-inspector';
 import { ClassicEditor } from '@ckeditor/ckeditor5-editor-classic';
 
 import { Autoformat } from '@ckeditor/ckeditor5-autoformat';
-import { Bold, Code, Italic } from '@ckeditor/ckeditor5-basic-styles';
+import { Underline, Bold, Code, Italic } from '@ckeditor/ckeditor5-basic-styles';
 import { BlockQuote } from '@ckeditor/ckeditor5-block-quote';
 import { CodeBlock } from '@ckeditor/ckeditor5-code-block';
 import { Essentials } from '@ckeditor/ckeditor5-essentials';
@@ -23,15 +23,17 @@ import { Paragraph } from '@ckeditor/ckeditor5-paragraph';
 import { Table, TableToolbar } from '@ckeditor/ckeditor5-table';
 import { Base64UploadAdapter } from '@ckeditor/ckeditor5-upload';
 
-import { Emphasis } from '../src/index';
+import { Emphasis, Wavyunderline } from '../src/index';
 
 ClassicEditor
 	.create( document.getElementById( 'editor' )!, {
 		plugins: [
 			Emphasis,
+			Wavyunderline,
 			Essentials,
 			Autoformat,
 			BlockQuote,
+			Underline,
 			Bold,
 			Heading,
 			Image,
@@ -53,9 +55,11 @@ ClassicEditor
 		],
 		toolbar: [
 			'emphasis',
+			'wavyunderline',
 			'|',
 			'heading',
 			'|',
+			'underline',
 			'bold',
 			'italic',
 			'link',

@@ -1,4 +1,6 @@
 {
 	"Emphasis": "Content for a tooltip is displayed when a user hovers the Emphasis icon.",
-	"Emphasis text": "Emphasis shortcut key description"
+	"Emphasis text": "Emphasis shortcut key description",
+	"Wavy underline": "Content for a tooltip is displayed when a user hovers the Wavy underline icon.",
+	"Wavy underline text": "Wavy underline shortcut key description"
 }

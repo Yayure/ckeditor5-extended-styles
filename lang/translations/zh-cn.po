@@ -12,3 +12,11 @@ msgstr "着重号文本"
 msgctxt "着重号"
 msgid "Emphasis"
 msgstr "着重号"
+
+msgctxt "波浪线文本"
+msgid "Wavy underline text"
+msgstr "波浪线文本"
+
+msgctxt "波浪线"
+msgid "Wavy underline"
+msgstr "波浪线"
